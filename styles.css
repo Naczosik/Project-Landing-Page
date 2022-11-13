@@ -97,6 +97,31 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    text-align: center;
+}
+
+.itemlist {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 225px;
+}
+
+.itemlist .imgcontainer {
+    border: 8px solid #3882f6;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    aspect-ratio: 1;
+
 }
 
 .medium {

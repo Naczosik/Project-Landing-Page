@@ -50,17 +50,16 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 20px;
 }
 
 .leftdark {
-    max-width: 50%;
+    max-width: 500px;
 }
 
 .dark .imgcontainer {
     aspect-ratio: 1;
     background-color: lightslategray;
-    flex-shrink: 0;
-    box-sizing: border-box;
     padding: 20px;
     display: flex;
     justify-content: center;
